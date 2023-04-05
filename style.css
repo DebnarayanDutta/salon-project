@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(43, 38, 38);
+    font-family:sans-serif;
+}
+
+.navbar{
+    height: 100px;
+    background-color:  rgb(43, 38, 38);
+    position: relative;
+}
+
+.navbarmenu{
+  height: 50px;
+  background-color:  rgb(43, 38, 38);
+  width: 900px;
+  font-size: 25px;
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+}
+
+.navbarmenu a{
+    margin-top: 10px;
+ padding-left: 30px;
+ padding-right: 20px;
+ color:aliceblue;
+}
+
+.navbarmenu a:hover{
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+    border: 2px solid #FBB034;
+    background-color:#FBB034;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#booknow{
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: 700;
+    background-color: #FBB034;
+    
+}
+
+.logo{
+    position: absolute;
+    left: 50px;
+}
+
+.logo #saloon{
+    width: 39px;
+    height: 11px;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 700px) {
+    
+    .navbarmenu{
+      height: 50px;
+      width: 520px;
+      font-size: 20px;
+    }
+    
+    .navbarmenu a{
+        margin-top: 10px;
+     padding-left: 15px;
+     padding-right: 10px;
+    }
+    
+    .navbarmenu a:hover{
+        font-size: 25px;
+    }
+    
+    #booknow{
+        padding: 10px;
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    
+    .logo{
+        position: absolute;
+        left: 50px;
+    }
+    
+    .logo #saloon{
+        width: 25px;
+        height: 8px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .navbarmenu{
+        height: 50px;
+        width: 400px;
+        font-size: 15px;
+      }
+      
+      .navbarmenu a{
+          margin-top: 10px;
+       padding-left: 10px;
+       padding-right: 6px;
+      }
+      
+      .navbarmenu a:hover{
+          font-size: 20px;
+      }
+      
+      #booknow{
+          padding: 7px;
+          font-size: 12px;
+          margin-left: 10px;
+      }
+      
+      .logo{
+          position: absolute;
+          left: 30px;
+      }
+      
+      .logo #saloon{
+          width: 20px;
+          height: 8px;
+      }
+}
+
+
+.Choppers{
+    position: absolute;
+    width: 513px;
+    height: 250px;
+    left: 50px;
+    bottom: 250px;
+}
+
+.Choppers h3{
+    font-size: 16px;
+    color:  #FBB034;
+    font-weight: 400;
+    line-height: 45px;
+}
+
+.Choppers h1{
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 55px;
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+
+.Choppers p{
+    font-weight: 200;
+    font-size: 21px;
+    color: rgb(124, 131, 138);
+    
+}
+
+.Book{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+    
+    width: 500px;
+    height: 100px;
+}
+
+#booknowbox{
+  position: absolute;
+  bottom: 25px;
+  left: 10px;
+  padding: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 10px;
+  height: 50px;
+  width: 150px;
+  color: black;
+  background-color: #FBB034;
+  border: none;
+  
+}
+
+#allservices{
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+    padding: 3px;
+    font-size: 15px;
+  font-weight: 700;
+    margin-right: 120px;
+    height: 50px;
+    width: 150px;
+    color: aliceblue;
+    border-color: aliceblue;
+    background-color: transparent;
+}
+
+.img{
+    position: absolute;
+    right: 20px;
+    width: 720px;
+    height: 625px;
+}
+
+@media only screen and (max-width: 700px)  {
+    
+    
+    .img{
+        position: absolute;
+        right: 20px;
+        width: 520px;
+        height: 525px;
+    }
+}
+
+#aboutsalon{
+    color: aliceblue;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    width: 500px;
+    height: 600px;
+   /* background-color: aqua;*/
+    word-spacing: 2px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 27px;
+}
+
+#aboutsalon h1{
+    padding-bottom: 10px;
+}
+
+#aboutimg{
+    height: 550px;
+    width: 900px;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1200px) {
+    #aboutsalon{
+        
+        position: absolute;
+        top: 200px;
+        left: 40px;
+        width: 500px;
+        height: 700px;
+       /* background-color: aqua;*/
+        word-spacing: 2px;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 27px;
+    }
+    
+    #aboutsalon h1{
+        padding-bottom: 10px;
+    }
+    
+    #aboutimg{
+        height: 550px;
+        width: 600px;
+        position: absolute;
+        right: 20px;
+        top: 250px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 900px) {
+    #aboutsalon{
+        
+        position: absolute;
+        top: 200px;
+        left: 40px;
+        width: 380px;
+        height: 700px;
+       /* background-color: aqua;*/
+        word-spacing: 2px;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 27px;
+    }
+    
+    #aboutsalon h1{
+        padding-bottom: 10px;
+    }
+    
+    #aboutimg{
+        height: 550px;
+        width: 450px;
+        position: absolute;
+        right: 40px;
+        top: 250px;
+    }
+}
+@media only screen and (max-width: 900px) and (min-width: 700px) {
+    #aboutsalon{
+        
+        position: absolute;
+        top: 200px;
+        left: 10px;
+        width: 300px;
+        height: 700px;
+       /* background-color: aqua;*/
+        word-spacing: 2px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 29px;
+    }
+    
+    #aboutsalon h1{
+        padding-bottom: 10px;
+    }
+    
+    #aboutimg{
+        height: 550px;
+        width: 350px;
+        position: absolute;
+        right: 10px;
+        top: 250px;
+    }
+}
+
+@media only screen and (max-width: 700px)  {
+    #aboutsalon{
+        
+        position: absolute;
+        top: 200px;
+        left: 10px;
+        width: 250px;
+        height: 700px;
+       /* background-color: aqua;*/
+        word-spacing: 2px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 29px;
+    }
+    
+    #aboutsalon h1{
+        padding-bottom: 10px;
+    }
+    
+    #aboutimg{
+        height: 450px;
+        width: 250px;
+        position: absolute;
+        right: 10px;
+        top: 250px;
+    }
+}
+
+.aboutlogo{
+    position: absolute;
+    left: 50px;
+    top: 60px;
+}
+
+
+
+#serviceimg::before{
+    content: " ";
+    background-image: url(./barbershop-ge91b749c6_1920.jpg);
+    position: absolute;
+    top: 108px;
+    bottom: 80px;
+    width: 100%;
+    height: 640px;
+    opacity: 0.5;
+}
+
+
+
+#mainservices{
+
+    display: flex;
+    background-size: cover;
+      position: absolute;
+    }
+
+    #mainservices h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    }
+
+
+#hairdressing{
+  width: 350px;
+  height: 550px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+  word-spacing: 2px;
+  border: 5px solid  rgb(236, 237, 233);
+  border-radius: 20px;
+  color: aliceblue;
+  margin-left: 140px;
+  margin-right: 85px;
+  margin-top: 50px;
+}
+
+#hairstyling{
+    width: 350px;
+    height: 550px;
+    font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+  word-spacing: 2px;
+  border: 5px solid  rgb(236, 237, 233);
+  border-radius: 20px;
+  color: aliceblue;
+  margin-left: 20px;
+  margin-right: 85px;
+  margin-top: 50px;
+}
+
+#shaving{
+    width: 350px;
+    height: 550px;
+    font-weight: 700;
+  font-size: 20px;
+  line-height: 38px;
+  word-spacing: 2px;
+  border: 5px solid rgb(236, 237, 233);
+  border-radius: 20px;
+  color: aliceblue;
+  margin-left: 20px;
+  margin-right: 0px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 900px) {
+    #serviceimg::before{
+        height: 740px;
+    }
+        #mainservices h1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 8px;
+        font-size: 18px;
+        }
+    
+    
+    #hairdressing{
+      width: 250px;
+      height: 450px;
+      font-size: 15px;
+      line-height: 30px;
+      word-spacing: 1px;
+      margin-left: 70px;
+      margin-right: 55px;
+    
+    }
+    
+    #hairstyling{
+        width: 250px;
+        height: 450px;
+        font-size: 15px;
+        line-height: 28px;
+        word-spacing: 1px;
+      margin-left: 10px;
+      margin-right: 55px;
+    
+    }
+    
+    #shaving{
+        width: 250px;
+        height: 450px;
+        font-size: 15px;
+        line-height: 28px;
+        word-spacing: 1px;
+      margin-left: 10px;
+      
+      
+    }
+}
+@media only screen and (max-width: 900px) and (min-width: 700px) {
+    #serviceimg::before{
+        height: 740px;
+    }
+        #mainservices h1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 8px;
+        font-size: 12px;
+        }
+    
+    
+    #hairdressing{
+      width: 170px;
+      height: 450px;
+      font-size: 12px;
+      line-height: 30px;
+      word-spacing: 1px;
+      margin-left: 70px;
+      margin-right: 55px;
+    
+    }
+    
+    #hairstyling{
+        width: 170px;
+        height: 450px;
+        font-size: 12px;
+        line-height: 28px;
+        word-spacing: 1px;
+      margin-left: 10px;
+      margin-right: 55px;
+    
+    }
+    
+    #shaving{
+        width: 170px;
+        height: 450px;
+        font-size: 12px;
+        line-height: 28px;
+        word-spacing: 1px;
+      margin-left: 10px;
+      
+      
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #serviceimg::before{
+        height: 740px;
+    }
+    #mainservices h1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 8px;
+        font-size: 12px;
+        } 
+    
+    
+    #hairdressing{
+      width: 140px;
+      height: 450px;
+      font-size: 12px;
+      line-height: 30px;
+      word-spacing: 1px;
+      margin-left: 20px;
+      margin-right: 35px;
+    
+    }
+    
+    #hairstyling{
+        width: 140px;
+        height: 450px;
+        font-size: 12px;
+        line-height: 28px;
+        word-spacing: 1px;
+      margin-left: 10px;
+      margin-right: 35px;
+    
+    }
+    
+    #shaving{
+        width: 140px;
+        height: 450px;
+        font-size: 12px;
+        line-height: 28px;
+        word-spacing: 1px;
+      margin-left: 10px;
+      
+      
+    }
+}
+
+#toolsimg{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    height: 580px;
+    width: 1050px;
+}
+#contact-info{
+    height: 500px;
+    width: 500px;
+    
+
+}
+
+#address{
+    color: rgb(55, 48, 61);
+    position: absolute;
+    left: 280px;
+    top: 240px;
+    line-height: 45px;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+#social{
+/*position: absolute;
+bottom: 30px;
+left: 300px;*/
+margin-top: 10px;
+display: flex;
+}
+
+#insta{
+width: 50px;
+height: 50px;
+margin-right: 30px;
+}
+
+#fb{
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+
+#twit{
+    width: 50px;
+    height: 50px;
+}
+@media only screen and (max-width: 1200px) and (min-width: 700px) {
+  #toolsimg{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 480px;
+    width: 700px;
+}
+  #address{
+    
+    position: absolute;
+    left: 110px;
+    line-height: 38px;
+    font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 700px) {
+    #toolsimg{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    height: 480px;
+    width: 500px;
+}
+  #address{
+    
+    position: absolute;
+    left: 80px;
+    line-height: 38px;
+    font-size: 15px;
+}
+#insta{
+width: 30px;
+height: 30px;
+margin-right: 15px;
+}
+
+#fb{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+#twit{
+    width: 30px;
+    height: 30px;
+}
+}
+
+
